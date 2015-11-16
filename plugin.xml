@@ -22,6 +22,9 @@
         <engine name="cordova" version=">=3.6.0" />
         <engine name="cordova" version="<4.0.0" />
     </engines>
+    
+    <!-- dependencies -->
+    <dependency id="cordova-plugin-device" />
 
     <!-- info -->
     <info>
@@ -49,7 +52,6 @@
 
     <!-- ios -->
     <platform name="ios">
-
         <dependency id="de.appplant.cordova.common.registerusernotificationsettings" />
 
         <config-file target="config.xml" parent="/*">
